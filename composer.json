@@ -1,12 +1,12 @@
 {
-  "name": "treolabs/skeleton",
-  "description": "Skeleton for Treo project",
-  "homepage": "https://treolabs.com",
+  "name": "kennersoft/skeleton",
+  "description": "Skeleton for KennerPIM project",
+  "homepage": "https://kennerpim.de",
   "license": "GPL-3.0-only",
   "minimum-stability": "stable",
   "require": {
-    "treolabs/treocore": "^3.25.6",
-    "treolabs/multi-languages": "*"
+    "kennersoft/kennercore": "^3.25.6",
+    "kennersoft/multi-languages": "*"
   },
   "scripts": {
      "pre-update-cmd": "ComposerCmd::preUpdate",
@@ -23,7 +23,7 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "https://packagist.treopim.com/packages.json?id=public"
+      "url": "https://packagist.kennersoft.de/packages.json?id=public"
     }
   ]
 }
